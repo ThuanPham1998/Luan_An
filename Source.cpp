@@ -98,7 +98,8 @@ void serve(Data& data)
 
 		cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-		if (ans == 'Y' or ans == 'y') {
+		if (ans == 'Y' || ans == 'y')
+		 {
 			data.pop();
 			cout << "Hang doi duoc cap nhat\n";
 		}
